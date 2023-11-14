@@ -403,7 +403,7 @@
         tr_create.appendChild(td_create5);
         table_getting[0].appendChild(tr_create);
         // ....
-        var arr= JSON.parse(localStorage.getItem("Add_to_Cart"));
+        var arr= JSON.parse(localStorage.getItem("Add_to_Cart"))||[];
         function test2(){
             // var arr=[] || JSON.parse(localStorage.getItem("Add_to_Cart"));
             arr.push(val);
