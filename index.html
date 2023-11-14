@@ -476,7 +476,7 @@
         // pushing an items (to an empty array) corresponding to the the button we pressed according to category.
         // arr.push(val);
        
-        var arr= JSON.parse(localStorage.getItem("Add_to_Cart"));
+        var arr= JSON.parse(localStorage.getItem("Add_to_Cart"))||[];
         button_create1.addEventListener("click",()=>{
             // adding condition if item already exists don't add into the cart.
             // var count=0;
