@@ -462,6 +462,7 @@
         function test3(){
             localStorage.setItem("seemore",JSON.stringify(val));
             window.location.assign("./Seemore.html");
+            clear();
         }
         button_create.addEventListener("click",()=>{test3();});
 
@@ -498,6 +499,7 @@
             arr.push(val);
             localStorage.setItem("Add_to_Cart",JSON.stringify(arr));
             window.location.assign("./Addtocart.html");
+            clear();
         });
         
     }});
